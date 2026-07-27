@@ -131,7 +131,7 @@ python notebooks/tflite_propertise_check.py
 
 ## Acknowledgment
 
-**Instructor:** G M Sakhawat Hossain, Assistant Professor
+**Instructor:** G M Sakhawat Hossain, Assistant Professor,RMSTU
 Email: gmsakhawat@rmstu.ac.bd
 
 ## License
