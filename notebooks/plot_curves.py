@@ -1,0 +1,35 @@
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# Plot training curves
+df = pd.read_csv('results.csv')
+plt.figure(figsize=(10, 6))
+plt.plot(df['epoch'], df['metrics/precision(B)'], label='Precision')
+plt.plot(df['epoch'], df['metrics/recall(B)'], label='Recall')
+plt.plot(df['epoch'], df['metrics/mAP50(B)'], label='mAP@0.5')
+plt.plot(df['epoch'], df['metrics/mAP50-95(B)'], label='mAP@0.5:0.95')
+plt.xlabel('Epoch')
+plt.ylabel('Value')
+plt.title('Training Curves')
+plt.legend()
+plt.grid(True)
+plt.savefig('training_curves.png')
+plt.close()
+
+# Learning curve (losses)
+plt.figure(figsize=(10, 6))
+plt.plot(df['epoch'], df['train/box_loss'], label='Train Box Loss')
+plt.plot(df['epoch'], df['train/cls_loss'], label='Train Cls Loss')
+plt.plot(df['epoch'], df['train/dfl_loss'], label='Train DFL Loss')
+plt.plot(df['epoch'], df['val/box_loss'], label='Val Box Loss')
+plt.plot(df['epoch'], df['val/cls_loss'], label='Val Cls Loss')
+plt.plot(df['epoch'], df['val/dfl_loss'], label='Val DFL Loss')
+plt.xlabel('Epoch')
+plt.ylabel('Loss')
+plt.title('Learning Curves')
+plt.legend()
+plt.grid(True)
+plt.savefig('learning_curves.png')
+plt.close()
+
+print("Training and learning curves saved as PNG.")
