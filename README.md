@@ -129,6 +129,11 @@ The script also supports processing a video file via `TrafficSignDetector.proces
 python notebooks/tflite_propertise_check.py
 ```
 
+## Acknowledgment
+
+**Instructor:** G M Sakhawat Hossain, Assistant Professor
+Email: gmsakhawat@rmstu.ac.bd
+
 ## License
 
 No license file is currently included in this repository.
