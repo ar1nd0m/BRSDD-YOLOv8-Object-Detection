@@ -68,7 +68,27 @@ Validation performance (see `results/accuracy.txt` for the full per-class breakd
 | mAP@0.5 | 99.49% |
 | mAP@0.5:0.95 | 97.03% |
 
-Training/learning curves and confusion matrices are in the `results/` folder.
+### Training & Learning Curves
+
+**Training curves** (Precision, Recall, mAP@0.5, mAP@0.5:0.95 across epochs):
+
+![Training Curves](results/training_curves.png)
+
+**Learning curves** (box, class, and DFL loss for train/val across epochs):
+
+![Learning Curves](results/learning_curves.png)
+
+### Confusion Matrices
+
+**Raw confusion matrix:**
+
+![Confusion Matrix](results/confusion_matrix.png)
+
+**Normalized confusion matrix:**
+
+![Normalized Confusion Matrix](results/confusion_matrix_normalized.png)
+
+All plots and the full per-class metrics breakdown are also available directly in the `results/` folder.
 
 ## Getting Started
 
