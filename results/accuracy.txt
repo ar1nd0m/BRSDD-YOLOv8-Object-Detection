@@ -1,0 +1,38 @@
+yolov8
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1024/1024 4.5it/s 3:46
+                   all       1024       1026      0.989      0.998      0.995       0.97
+            Crossroads         33         33      0.995          1      0.995      0.933 
+    Emergency Stopping         37         37      0.995          1      0.995      0.991 
+Emergency Stopping 250m         22         22      0.991          1      0.995      0.991
+              Give Way         17         17      0.991          1      0.995      0.942
+     Height Limit 5-7m         48         48      0.996          1      0.995      0.987
+        Hospital Ahead         42         42          1      0.988      0.995      0.713
+        Junction Ahead          5          5      0.967          1      0.995      0.995
+          Mosque Ahead         80         80      0.988      0.989      0.994      0.941
+         No Overtaking         59         59      0.997          1      0.995      0.994
+        No Pedestrians          5          5          1          1      0.995      0.882
+      No Vehicle Entry         17         17       0.99          1      0.995      0.995
+  Pedestrians Crossing         61         61          1      0.997      0.995      0.952
+     Petrol Pump Ahead         66         66      0.998          1      0.995      0.985
+          School Ahead         33         33      0.995          1      0.995      0.981
+       Sharp Left Turn         38         38      0.995          1      0.995      0.993
+      Sharp Right Turn         36         36      0.995          1      0.995      0.993
+     Side Road On Left         94         94      0.998          1      0.995      0.989
+    Side Road On Right         98         98      0.998          1      0.995      0.994
+         Speed Breaker         45         45      0.996          1      0.995      0.995
+     Speed Limit 20 km          7          7      0.975          1      0.995      0.995
+      Speed Limit 40Km         79         79      0.986          1      0.993      0.992
+      Speed Limit 80Km         31         31          1      0.974      0.995      0.983
+      Tolls 1 km Ahead          8          8      0.978          1      0.995      0.995
+           Tolls Ahead          8          8      0.978          1      0.995      0.995
+Traffic Merges From Left         16         16      0.988          1      0.995      0.995
+Traffic Merges From Right          2          2      0.926          1      0.995      0.995
+            Truck Lane         15         15       0.99          1      0.995      0.995
+                U Turn         10         10      0.982          1      0.995      0.978
+       Underpass Ahead         14         14      0.987          1      0.995       0.97
+Results saved to C:\Users\arindam\Documents\BRSDD\runs\detect\val7
+Precision: 98.88%
+Recall:    99.82%
+F1 score:  99.35%
+mAP@0.5:   99.49%
+mAP@0.5:0.95: 97.03%
