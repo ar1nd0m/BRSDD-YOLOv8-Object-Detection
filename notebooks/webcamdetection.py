@@ -4,7 +4,7 @@ import time
 import numpy as np
 
 class TrafficSignDetector:
-    def __init__(self, model_path='best.pt', conf_threshold=0.25, iou_threshold=0.45):
+    def __init__(self, model_path='results/yolov8n.pt', conf_threshold=0.25, iou_threshold=0.45):
         """
         Initialize the traffic sign detector
         
