@@ -4,7 +4,7 @@ import pandas as pd
 import seaborn as sns
 import numpy as np
 
-model = YOLO('best.pt')
+model = YOLO('results/yolov8n.pt')
 res = model.val(data=r"C:\Users\arindam\Documents\BRSDD\data.yaml",
                 split='val', batch=16, imgsz=640, save=True, plots=True)
 
